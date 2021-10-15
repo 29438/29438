@@ -3,6 +3,7 @@
 // @version      2.0.3
 // @namespace    https://github.com/29438
 // @description  自动刷尔雅MOOC，视频、音频秒刷，文档、图书自动完成，章节测验自动答题提交，支持自动切换任务点、挂机阅读时长、自动登录等，解除各类功能限制
+// @icon              https://tntfiles.com/preview/31c8a98f301329ede30e359d5ffba187381eb397faf33829a77e98dc9d0d7545.jpg
 // @updateURL    https://github.com/29438/29438/raw/main/xxt.js
 // @installURL   https://github.com/29438/29438/raw/main/xxt.js
 // @author       cp
