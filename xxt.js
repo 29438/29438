@@ -1,9 +1,11 @@
 // ==UserScript==
 // @name         超星学习通助手V2
 // @version      2.0.3
-// @namespace    cp
-// @description  自动刷尔雅MOOC，支持视频、音频、文档、图书自动完成，章节测验自动答题提交，支持自动切换任务点、挂机阅读时长、自动登录等，解除各类功能限制，开放自定义参数
-// @author       gfck
+// @namespace    https://github.com/29438
+// @description  自动刷尔雅MOOC，视频、音频秒刷，文档、图书自动完成，章节测验自动答题提交，支持自动切换任务点、挂机阅读时长、自动登录等，解除各类功能限制
+// @updateURL    https://github.com/29438/29438/raw/main/xxt.js
+// @installURL   https://github.com/29438/29438/raw/main/xxt.js
+// @author       cp
 // @match        *://*.chaoxing.com/*
 // @match        *://*.edu.cn/*
 // @match        *://*.nbdlib.cn/*
@@ -1346,7 +1348,7 @@ var setting = {
       if ($.type(parent._data) == 'array')
         return setting.regl();
       var maximize = $(
-          '<div style="border: 2px dashed rgb(0, 85, 68); position: fixed; top: 0; right: 0; z-index: 99999; background-color: rgba(70, 196, 38, 0.6); overflow-x: auto;display:none;">◻</div>'
+          '<div style="border: 2px dashed rgb(0, 85, 68); position: fixed; top: 0; right: 0; z-index: 99999; background-color: rgba(227,207,87); overflow-x: auto;display:none;">◻</div>'
         )
         .appendTo('body')
         .click(function ()
@@ -1359,7 +1361,7 @@ var setting = {
         });
     
       setting.div = $(
-          '<div style="border: 2px dashed rgb(0, 85, 68); width: 330px; position: fixed; top: 0; right: 0; z-index: 99999; background-color: rgba(70, 196, 38, 0.6); overflow-x: auto;">' +
+          '<div style="border: 2px dashed rgb(0, 85, 68); width: 330px; position: fixed; top: 0; right: 0; z-index: 99999; background-color: rgba(227,207,87); overflow-x: auto;">' +
           '<span style="font-size: medium;"></span>' +
           '<div style="font-size: medium;width:70%;display: inline-block;">正在搜索答案...</div>' +
           '<div style="width:30%;display: inline-block;padding-right: 10px;box-sizing: border-box;text-align: right;"><minimize style="width:20px;font-size:16px;line-height: 12px;font-weight: bold;cursor: context-menu;user-select:none;">一</minimize></div>' +
